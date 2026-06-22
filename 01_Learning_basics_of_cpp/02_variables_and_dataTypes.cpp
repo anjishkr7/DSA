@@ -1,4 +1,5 @@
 #include<iostream>
+#include<iomanip>
 using namespace std;
 
 int main(){
@@ -11,5 +12,7 @@ int main(){
 
   //updation or manipulation:-
   marks=100;
+  double count=789.7788668;
+  cout<<fixed<<setprecision(7)<<count<<endl;
   return 0;
 }
