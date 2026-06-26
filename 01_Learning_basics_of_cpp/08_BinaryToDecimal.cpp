@@ -12,6 +12,16 @@ int binaryToDecimal(int n){
   return decimal;
 
 }
+int binaryToDecimalByBitwise(int n){
+  int decimal=0;
+  int i=0;
+  while(n){
+    int bit =(n & 1);
+    decimal=decimal+bit*pow(2,i++);
+    n=n>>1;
+  }
+  return decimal;
+}
 int main()
 {
   int binary;
