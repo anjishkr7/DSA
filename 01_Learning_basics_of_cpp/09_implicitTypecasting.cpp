@@ -13,6 +13,7 @@ int main()
 //2.char to int
   // char ch='A';
   // int a = ch+1;//implicit coversion from char to int
+  //char a=ch+1; //Output:- B int to char
   // cout<<a<<endl;
   return 0;
 }
